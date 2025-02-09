@@ -81,7 +81,6 @@ For handling players and other game entities, I am exploring a hybrid ECS (Entit
 
 I am also considering pulling in the [bevy_ecs](https://docs.rs/bevy_ecs) crate in the future if performance demands it. This approach aims to strike a balance between flexibility and efficiency while leveraging Rust’s strengths in type safety and pattern matching.
 
----
 
 ### Map Data
 
@@ -93,6 +92,7 @@ I'm still evaluating the best approach for handling map data. The two main optio
 Regardless of which editor is used, **the engine will store map and save data in JSON format**. While I considered other formats like XML, JSON's widespread support and ease of use make it the best choice for interoperability and flexibility.  
 This approach ensures that maps can be easily modified, exported, and integrated into the engine as it evolves.
 
+---
 
 ## Art and Assets
 At the moment the engine is focused mainly on supporting 32x32 textures with some 32x64 textures for entities. In the future the engine may look to support other tile sizes.
