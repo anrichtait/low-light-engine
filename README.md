@@ -83,7 +83,19 @@ I am also considering pulling in the [bevy_ecs](https://docs.rs/bevy_ecs) crate 
 
 ---
 
+### Map Data
+
+I'm still evaluating the best approach for handling map data. The two main options are:  
+
+1. **Using Tiled** – A well-established and widely used tilemap editor. I will likely rely on Tiled in the early stages of development, as it provides robust features and a proven workflow.  
+2. **Creating a Custom Map Editor** – In the future, I may develop a custom editor using [egui](link), similar to [Porymap](link). A dedicated in-engine editor could streamline the workflow and better integrate with the engine’s systems.  
+
+Regardless of which editor is used, **the engine will store map and save data in JSON format**. While I considered other formats like XML, JSON's widespread support and ease of use make it the best choice for interoperability and flexibility.  
+This approach ensures that maps can be easily modified, exported, and integrated into the engine as it evolves.
+
+
 ## Art and Assets
+At the moment the engine is focused mainly on supporting 32x32 textures with some 32x64 textures for entities. In the future the engine may look to support other tile sizes.
 
 ### Current Textures
 
