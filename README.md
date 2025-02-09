@@ -83,6 +83,26 @@ I am also considering pulling in the [bevy_ecs](https://docs.rs/bevy_ecs) crate 
 
 ---
 
+## Art and Assets
+
+### Current Textures
+
+Below are some textures currently available in the `assets/` directory. These textures are for prototyping and may change as the engine evolves.
+
+- **Texture Example 1**  
+  ![Prototype Tile](assets/placeholder.png)  
+  *The base prototyping tile that will be used for empty game levels and tiles that don't have a texture yet*
+
+  This tile was heavily inspired by this gif posted by the Pixpil devs:
+  ![Eastward gif](assets/eastward.gif)  
+
+
+- **Texture Example 2**  
+  ![Purple Alien](assets/purple_alien.png)  
+  *Early design for an enemy maybe*
+
+---
+
 ## Contributing
 
 At this stage, Low Light Engine is a personal project. Contributions are welcome if you have suggestions, improvements, or ideas—but please keep in mind that the project is a learning exercise and may undergo significant changes.
