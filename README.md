@@ -112,8 +112,3 @@ At this stage, Low Light Engine is a personal project. Contributions are welcome
 ## License: GNU General Public License v3.0
 
 Low Light Engine is released under the GNU General Public License v3.0 (GPLv3). This license grants you the freedom to use, modify, and redistribute the engine, provided that any derivative works or modifications are also distributed under the same license. In essence, if you build upon or integrate Low Light Engine into your own project, your project must also be released under GPLv3, ensuring that the source code remains open and freely available. The engine is provided "as-is", without any warranty, and by using it you agree to abide by these terms and conditions.
-
----
-
-Feel free to reach out if you have any questions or suggestions.
-
