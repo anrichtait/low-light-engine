@@ -1,0 +1,9 @@
+[package]
+name = "low-light-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4.13"
+egui = "0.21.0"
+egui-macroquad = "0.15"
