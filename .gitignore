@@ -1,0 +1,60 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# CMake build directories
+/build/
+cmake-build-*/
+
+# Debug/Release directories
+/debug/
+*/debug/
+*/release/
+
+# Raylib-related files
+*.exe
+*.dmg
+*.app
+*.so
+*.a
+*.lib
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Package managers
+/node_modules/
+.vscode/
+
+# Linux-specific (Arch, etc.) build files
+*.dSYM
+*.db
+
+# Miscellaneous
+*.map
+*.user
+*.userprefs
+
