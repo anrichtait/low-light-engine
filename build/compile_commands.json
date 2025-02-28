@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/anrichtait/Projects/raylib_engine/build",
+  "command": "/usr/bin/c++   -I/usr/include -o CMakeFiles/build.dir/main.cpp.o -c /home/anrichtait/Projects/raylib_engine/main.cpp",
+  "file": "/home/anrichtait/Projects/raylib_engine/main.cpp",
+  "output": "CMakeFiles/build.dir/main.cpp.o"
+}
+]
