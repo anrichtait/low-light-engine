@@ -1,4 +1,4 @@
-#include "GameEngine.h"
+#include "../include/GameEngine.hpp"
 #include <raylib.h>
 
 const int SCREEN_WIDTH = 800;

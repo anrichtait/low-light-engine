@@ -1,15 +1,20 @@
-#include "GameEngine.h"
+#include "../include/GameEngine.hpp"
+#include "../include/World.hpp"
+
 #include <chrono>
 #include <iostream>
 
 int main(void) {
 	GameEngine game;
+	World world;
+
 	game.Initialize();
 
 	auto previous = std::chrono::high_resolution_clock::now();
 	double lag = 0.0;
 	const double FIXED_UPDATE_INTERVAL = 1.0 / 60.0;
 	const double MAX_LAG = 0.25; // Maximum lag to avoid spiral of death
+
 
 	while (game.Running()) {
 		auto current = std::chrono::high_resolution_clock::now();
@@ -25,11 +30,11 @@ int main(void) {
 		lag += deltaTime;
 
 		game.Input();
-		game.Update();
+		world.Update();
 
 		int fixedUpdateCount = 0;
 		while (lag >= FIXED_UPDATE_INTERVAL) {
-			game.FixedUpdate();
+			world.FixedUpdate();
 			lag -= FIXED_UPDATE_INTERVAL;
 			fixedUpdateCount++;
 
