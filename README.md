@@ -1,45 +1,79 @@
-# Low Light Game Engine
-Welcome to the Low Light Game Engine. This is a hobby project being worked on by [me](link.com). I post regular dev/study logs on my [blog](link.com) where I go into implementing the features I added in the engine.
+# **Low Light Game Engine**  
 
-*Low Light Engine* is focused on 2D game prototyping and development for my personal projects. The Low Light Engine is designed to be a flexible and modular toolset for 2D game development. Currently, it is in the early stages of development, and as new systems and features are added, this README will be updated with documentation on architecture and implementation details.
+Welcome to the *Low Light Game Engine*! This is a hobby project developed by [me](link.com). I post regular dev/study logs on my [blog](link.com), where I go into detail about implementing new features in the engine.  
 
-> **Stability Notice:** This is an experimental hobby project and is not yet ready for any serious game development and is VERY feature incomplete.
+*Low Light Engine* is focused on **2D game prototyping and development** for my personal projects. The engine is designed to be a **flexible and modular toolset** for 2D game development. Currently, it is in the **early stages of development**, and as new systems and features are added, this README will be updated with documentation on architecture and implementation details.  
 
-## Features
-- Game Loop: 
-    - Slugline: Fixed and variable time step game loop broken into different sub-loops to seperate concerns.
-    - Key Files: GameEngine.cpp, GameEngine.h, main.cpp
-- Component System:
-    - Slugline: GameActors made up of component classes that provide functionality.
-    - Key Files: **TODO**
-- Texture Manager: **TODO**
-    - Slugline: **TODO**
-
-
-*More features coming soon*
+> ⚠ **Stability Notice:**  
+> This is an **experimental** hobby project. It is **not yet ready** for serious game development and is **very feature-incomplete**. Expect frequent changes and breaking updates.  
 
 ---
 
-## Platforms
+## **Features**  
 
-The following are the platforms I intend to support.  
-*Platforms marked with a star are not currently supported.*
+### **Game Loop**  
+- **Description:** A fixed and variable time-step game loop, broken into different sub-loops to separate concerns.  
+- **Key Files:** `GameEngine.cpp`, `GameEngine.h`, `main.cpp`  
 
-- [ ] PC (Windows, Linux, and Mac)
-- [ ] PS4 *
-- [ ] XBOX *
-- [ ] Android
-- [ ] iOS
-- [ ] Switch *
+### **Component System**  
+- **Description:** GameActors are composed of component classes that provide functionality.  
+- **Key Files:** `GameActor.cpp`, `GameActor.h`, `Component.h`  
+
+### **Texture Manager** *(Work in Progress)*  
+- **Description:** Efficiently loads, stores, and manages textures for rendering.  
+- **Key Files:** **TODO**  
+
+*(More features coming soon!)*  
 
 ---
 
-## Contributors
-At this stage, Low Light Engine is a personal project. Contributions are welcome if you have suggestions, improvements, or ideas—but please keep in mind that the project is a learning exercise and may undergo significant changes.
+## **Platforms**  
+
+The following platforms are planned for support.  
+- [ ] PC (Windows, Linux, Mac)  
+- [ ] PlayStation 4
+- [ ] Xbox
+- [ ] Android 
+- [ ] iOS 
+- [ ] Nintendo Switch 
 
 ---
 
-## License: GNU General Public License v3.0
+## **Contributing**  
 
-Low Light Engine is released under the GNU General Public License v3.0 (GPLv3). This license grants you the freedom to use, modify, and redistribute the engine, provided that any derivative works or modifications are also distributed under the same license. In essence, if you build upon or integrate Low Light Engine into your own project, your project must also be released under GPLv3, ensuring that the source code remains open and freely available. The engine is provided "as-is", without any warranty, and by using it you agree to abide by these terms and conditions.
+At this stage, *Low Light Engine* is a personal project. However, if you have **suggestions, improvements, or ideas**, feel free to open an issue or submit a pull request.  
 
+Ways to contribute:  
+✅ Report bugs & issues  
+✅ Suggest features or optimizations  
+✅ Write or add to documentation
+✅ Graphics programmers are very saught after here
+✅ Provide feedback on code structure & design  
+
+> **Note:** Since this project is primarily for learning, expect **major changes** as I improve the engine.  
+
+---
+
+## **License**  
+
+This project is licensed under the **MIT License**. In short, you are free to use, modify, and distribute this software, as long as you include the original license and attribution in any copies or substantial portions of the software.
+
+
+---
+
+## **Build Guide**  
+
+### **Prerequisites**  
+- A C++ compiler supporting C++11 or later  
+- CMake (version 3.10 or newer recommended)  
+- Required libraries: (e.g., The Forge SDK, SDL3 or Raylib, depending on your current backend)  
+
+### **Building the Engine**  
+
+*IN PROGRESS*
+
+### **Notes:**  
+- If you encounter missing dependencies or libraries, refer to the documentation for each third-party library.  
+- Adjust your CMakeLists.txt if you decide to swap out libraries or add new ones.
+
+---
